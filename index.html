@@ -1,44 +1,41 @@
-# minite
-
-<!-- File: index.html -->
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>アンケート結果</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 0 20px;
-    }
-    h1 { color: #333; }
-    .embed-container {
-      position: relative;
-      width: 100%;
-      overflow: hidden;
-      border: 1px solid #ddd;
-      border-radius: 4px;
-    }
-    .embed-container iframe {
-      width: 100%;
-      height: 500px;
-      border: none;
-    }
-    .updated {
-      color: #888;
-      font-size: 0.85em;
-      margin-top: 8px;
-    }
-  </style>
+<meta charset="UTF-8">
+<title>あなたのＨＰタイトル</title>
+<meta name="keywords" content="ページのキーワードA,B,C">
+<meta name="description" content="ページの説明">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <h1>試合結果一覧</h1>
-  <div class="embed-container">
-<iframe width="402" height="346" frameborder="0" scrolling="no" src="https://1drv.ms/x/c/a2d214b1ab626c39/IQRiSnvgAm50SqTaEdhrhz08AXTladsSQdifnXWfluP3z1Y?em=2&wdAllowInteractivity=False&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True&wdInConfigurator=True&edaebf=rslc0"></iframe>
-  </div>
-  <p class="updated">※ データはMicrosoft Formsの回答送信時にリアルタイムで更新されます。</p>
-</body>
+<div id="outer">
+<header><div id="header-container"><div id="head-inner"><h1>あなたのＨＰタイトル</h1>
+<p class="description">あなたのＨＰの説明文</p></div></div>
+</header>
+<div id="content-wrapper">
+<main>
+<div id="inner">
+<h2>記事ページ見出し・大</h2>
+<p>文章あれこれ</p>
+<h3>記事ページ見出し・中</h3>
+<p>文章あれこれ</p>
+<h4>記事ページ見出し・小</h4>
+<p>文章あれこれ</p>
+</div>
+</main>
+<aside>
+<div id="middle-inner">
+<div class="side-title">menu</div>
+<div class="side">
+<ul>
+<li>記事ページへのリンク</li>
+<li>記事ページへのリンク</li>
+</ul>
+</div>
+</div>
+</aside>
+</div>
+<footer>© 2010 あなたのホームページ</footer>
+</div></body>
 </html>
